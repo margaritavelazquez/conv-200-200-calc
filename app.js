@@ -121,7 +121,7 @@ function getCalculationResult(response){
   for(var i = 0; i< response.entities.length; i++){
     if (response.entities[i].entity === 'sys-number') {
       numbersArr.push(response.entities[i].value);
-    }
+       }
     }
   
   var result = 0;
